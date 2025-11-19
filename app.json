@@ -2,6 +2,7 @@
   "expo": {
     "name": "Taxi-Uber",
     "slug": "Taxi-Uber",
+    "scheme": "taxi-uber",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,10 +21,20 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.TaxiUber"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "73622255-73da-4ee7-8d92-2b4b80a6965a"
+      }
     }
   }
 }
